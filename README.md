@@ -65,6 +65,7 @@
 ```bash
 git clone https://github.com/mishellguanoc/Disaster_tweets_nlp.git
 cd Disaster_tweets_nlp
+```
 2. Create a virtual environment
 
 Windows:
