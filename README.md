@@ -66,30 +66,32 @@
 git clone https://github.com/mishellguanoc/Disaster_tweets_nlp.git
 cd Disaster_tweets_nlp
 ```
-2. Create a virtual environment
+### 2. Create a virtual environment
 
 Windows:
-
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 macOS/Linux:
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Install dependencies
+```
+### 3. Install dependencies
 pip install -r requirements.txt
 🚀 Running Locally
+```bash
 streamlit run app.py
-
+```
 The app will open automatically in your browser at http://localhost:8501
-.
 
-☁️ Deployment
+
+##  Deployment
 
 You can deploy this Streamlit app easily on Streamlit Cloud or Heroku. Make sure your disaster_model.pkl and tfidf_vectorizer.pkl are included in the repo for predictions to work.
 
-📁 Project Structure
+## Project Structure
 Disaster_tweets_nlp/
 │
 ├─ app.py                  # Main Streamlit app
@@ -98,7 +100,7 @@ Disaster_tweets_nlp/
 ├─ tfidf_vectorizer.pkl    # TF-IDF vectorizer
 ├─ requirements.txt        # Project dependencies
 └─ README.md               # Project documentation
-🧠 Model Details
+## Model Details
 
 Algorithm: Logistic Regression
 
@@ -106,7 +108,7 @@ Features: TF-IDF vectors (max 5000 features)
 
 Purpose: Predict whether a tweet is disaster-related (1) or not (0)
 
-📊 Dataset
+## 📊 Dataset
 
 Source: https://www.kaggle.com/datasets/vstepanenko/disaster-tweets
 
@@ -114,7 +116,7 @@ Format: CSV with columns like id, text, target, language, normalized_text, etc.
 
 Cleaned for PII (emails, phone numbers) and normalized text for prediction
 
-🎯 Usage Examples
+## 🎯 Usage Examples
 
 Select language(s) and tweet target filters in the sidebar
 
@@ -122,7 +124,7 @@ Explore dataset visualizations and statistics
 
 Input your own tweet in the prediction box to get a disaster classification with confidence
 
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 
 Ensure disaster_model.pkl and tfidf_vectorizer.pkl exist in the project folder
 
@@ -130,6 +132,6 @@ Activate your virtual environment before running Streamlit
 
 If predictions fail, check that the loaded vectorizer matches the trained model
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Mishell Guano
