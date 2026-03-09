@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+wordcloud
+vaderSentiment
+langdetect
+spacy
+streamlit
+kagglehub
+folium
+geopy
+sentence-transformers
+umap-learn
+plotly
