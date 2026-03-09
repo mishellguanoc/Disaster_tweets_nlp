@@ -100,6 +100,17 @@ Disaster_tweets_nlp/
 ├─ tfidf_vectorizer.pkl    # TF-IDF vectorizer
 ├─ requirements.txt        # Project dependencies
 └─ README.md               # Project documentation
+
+
+## Project Structure
+
+Disaster_tweets_nlp/
+├─ app.py                # 🖥️ Main Streamlit app
+├─ data_loader.py        # 📂 Functions to load dataset
+├─ disaster_model.pkl    # 📊 Trained Logistic Regression model
+├─ tfidf_vectorizer.pkl  # 📝 TF-IDF vectorizer
+├─ requirements.txt      # 📦 Project dependencies
+└─ README.md             # 📖 Project documentation
 ## Model Details
 
 Algorithm: Logistic Regression
